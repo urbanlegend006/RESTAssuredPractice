@@ -1,4 +1,4 @@
-package PracticeSet1;
+package FiltersJSONSchemaLogToFile;
 
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -6,7 +6,6 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 public class FIlters {
 

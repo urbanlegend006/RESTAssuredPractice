@@ -1,8 +1,7 @@
-package PracticeSet1;
+package FiltersJSONSchemaLogToFile;
 
-import io.restassured.module.jsv.JsonSchemaValidator;
 import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
+
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static io.restassured.RestAssured.given;
 
